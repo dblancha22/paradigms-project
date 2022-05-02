@@ -1,0 +1,40 @@
+extends layout
+
+block content
+
+  h1 EPSN
+  .topnav
+    button#zooButton Leagues
+    button#nflButton NFL
+    button#nhlButton NHL
+    button#nbaButton NBA
+    button#mlbButton MLB
+    button#zoomButton ZoomTime
+    button#mapButton Quiz
+    script(src='javascripts/client.js')
+
+  .main
+    p What basketball team calls Milwaukee home?
+    button#q1a1Button Raptors
+    button#q1a2Button Heat
+    button#q1a3Button Bucks
+    button#q1a4Button Celtics 
+    p 
+    p What football team resides in Philadelphia?
+    button#q2a1Button Giants
+    button#q2a2Button Eagles
+    button#q2a3Button Cardinals
+    button#q2a4Button Falcons
+    p 
+    p Where do the Dodgers play baseball?
+    button#q3a1Button New York
+    button#q3a2Button Houston
+    button#q3a3Button Kansas City
+    button#q3a4Button Los Angeles
+    p 
+    p Where do the Stars play hockey?
+    button#q4a1Button Tampa Bay
+    button#q4a2Button Dallas
+    button#q4a3Button Pittsburgh
+    button#q4a4Button Washington D.C.
+

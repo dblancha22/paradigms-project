@@ -1,0 +1,19 @@
+extends layout
+
+block content
+
+  h1 EPSN
+  .topnav
+    button#zooButton Leagues
+    button#nflButton NFL
+    button#nhlButton NHL
+    button#nbaButton NBA
+    button#mlbButton MLB 
+    button#zoomButton ZoomTime
+    button#mapButton Quiz
+    script(src='javascripts/client.js')
+  .main
+    img(src='images/nfl.jpg', alt='Image', width='600', height='400')
+    img(src='images/nhl.png', alt='Image', width='600', height='400')
+    img(src='images/nba.jpg', alt='Image', width='500', height='400')
+    img(src='images/mlb.png', alt='Image', width='600', height='400')

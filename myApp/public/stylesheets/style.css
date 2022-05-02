@@ -1,12 +1,4 @@
-#map {
-   height: 100%;
 
-   overflow-y: visible !important
-}
-
-.map{
-  display: contents;
-}
 
 html, body {
         height: 100%;
@@ -46,3 +38,34 @@ body {
   background-color: #4CAF50;
   color: white;
 }
+
+/*----------------------------------*/
+
+/* Add a black background color to the top navigation */
+.botnav {
+  background-color: rgb(118, 220, 249);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.botnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.botnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.botnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
